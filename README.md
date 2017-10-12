@@ -1,3 +1,5 @@
 # Usage
 
-docker run --rm -it celforyon/cling cling
+```
+docker run --rm -it celforyon/cling
+```

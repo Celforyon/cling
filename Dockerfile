@@ -26,3 +26,5 @@ RUN ./cpt.py --no-test --create-dev-env Release --with-workdir=/opt/cling \
 	&& rm -rf /opt/cling /tmp/cling-obj cpt.py \
 	&& mkdir /opt/cling \
 	&& mv /tmp/Jupyter /opt/cling
+
+CMD ["cling"]
